@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.helloworldsolution.ogtv.MainActivity" >
+    <item android:id="@+id/action_settings"
+        android:title="Live Streaming"
+        android:icon="@drawable/ic_live_tv_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/go_to_our_website"
+        android:title="Visit our Website"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+    <item android:id="@+id/share_this_app"
+        android:title="Share this app"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+</menu>
